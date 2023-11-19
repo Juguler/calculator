@@ -1,0 +1,48 @@
+#calculator {
+    width: 208px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(24,25,26);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-top:100px
+}
+.screen {
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: right;
+    line-height: 20px;
+
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.digit, .operator, .equals, .clear {
+    width: 45px;
+    height: 45px;
+    margin: 2px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.digit {
+    background-color: rgb(68, 69, 70);
+}
+.operator, .equals, .dot {
+    background-color: #f90;
+}
+.clear {
+    background-color: #f44;
+    width: 98px;
+}
+.digitZero {
+    width: 151px;
+    height: 45px;
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(68, 69, 70);
+}
